@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Machine Learning - Pembelajaran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-brain"></i> Edu<span>AI</span></a>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#materi">Materi</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="beranda" class="hero">
+        <div class="hero-content">
+            <div class="badge">E-Learning Masa Depan</div>
+            <h1>Eksplorasi Teknologi Masa Depan: <br> <span class="gradient-text">AI, Deep Learning & Vision</span></h1>
+            <p>Pelajari fondasi utama Artificial Intelligence, Neural Networks, Deep Learning, dan Computer Vision.</p>
+            <a href="#materi" class="cta-btn">Mulai Belajar <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-graphics">
+            <div class="glass-orb orb-1"></div>
+            <div class="glass-orb orb-2"></div>
+        </div>
+    </header>
+
+    <!-- Materi Section -->
+    <section id="materi" class="materi-section">
+        <div class="section-header">
+            <h2>Materi Pembelajaran</h2>
+            <p>Pilih modul di bawah ini untuk mulai belajar</p>
+        </div>
+
+        <div class="tabs-container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-target="modul1">Modul 1: Computer Vision</button>
+                <button class="tab-btn" data-target="modul2">Modul 2: Deep Learning</button>
+                <button class="tab-btn" data-target="modul3">Modul 3: AI & ML</button>
+                <button class="tab-btn" data-target="modul4">Modul 4: Neural Network</button>
+            </div>
+
+            <div class="tabs-content">
+                <!-- Modul 1 -->
+                <div id="modul1" class="tab-pane active">
+                    <div class="materi-grid">
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+                            <h3>1. Pengertian Advanced Computer Vision</h3>
+                            <p>Cabang lanjutan dari AI dan Machine Learning yang berfokus pada kemampuan komputer untuk memahami, menganalisis, dan mengambil keputusan dari data visual seperti gambar dan video secara otomatis. Memanfaatkan Deep Learning dan Neural Network kompleks.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <h3>2. Peran Deep Learning</h3>
+                            <p>Kemajuan besar didorong oleh <strong>Convolutional Neural Networks (CNN)</strong>. CNN mampu mengekstraksi fitur visual, mengenali pola kompleks, dan mengurangi feature engineering manual. Struktur: Convolution, Pooling, dan Fully Connected Layer.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                            <h3>3. Teknik Utama</h3>
+                            <div class="sub-points">
+                                <p><strong>Object Detection:</strong> Mendeteksi & melokalisasi objek (YOLO, Faster R-CNN).</p>
+                                <p><strong>Image Segmentation:</strong> Memisahkan gambar menjadi area bermakna (Semantic & Instance).</p>
+                                <p><strong>Face Recognition:</strong> Deteksi wajah dan analisis emosi.</p>
+                                <p><strong>Action Recognition:</strong> Mengklasifikasikan aktivitas dari video.</p>
+                            </div>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-link"></i></div>
+                            <h3>4. Integrasi dengan NLP & LLM</h3>
+                            <p>Dikombinasikan dengan NLP membentuk sistem multimodal. Contoh: Image captioning, deteksi visual dengan analisis konteks bahasa, kamera + LLM untuk menjelaskan apa yang dilihat secara natural.</p>
+                        </div>
+                        <div class="materi-card highlight-card">
+                            <div class="card-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                            <h3>5. Tantangan & Relevansi</h3>
+                            <p>Tantangan utama: Kebutuhan data besar, bias dataset, komputasi tinggi, isu etika. Bagi mahasiswa, ini membuka peluang project AI terapan, riset lanjutan, dan portofolio industri.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modul 2 -->
+                <div id="modul2" class="tab-pane">
+                    <div class="materi-grid">
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                            <h3>1. Pengertian Deep Learning</h3>
+                            <p>Cabang Machine Learning menggunakan Artificial Neural Network (ANN) dengan banyak lapisan (deep layers) untuk mempelajari pola kompleks dari data besar. Mampu mengekstraksi fitur secara otomatis dari data mentah, terinspirasi dari otak manusia.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+                            <h3>2. Arsitektur Dasar</h3>
+                            <ul>
+                                <li><strong>ANN:</strong> Input, Hidden, dan Output Layer.</li>
+                                <li><strong>CNN:</strong> Khusus data visual (Computer Vision).</li>
+                                <li><strong>RNN:</strong> Untuk data berurutan (sequence), memiliki memori.</li>
+                                <li><strong>Transformer:</strong> Paralel processing, dasar dari LLM modern.</li>
+                            </ul>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+                            <h3>3. Proses Kerja & Peran</h3>
+                            <p>Proses: Forward propagation -> Hitung loss -> Backpropagation -> Update bobot (optimizer). Memungkinkan sistem belajar mandiri, mengenali pola kompleks, dan beradaptasi. Contoh: Kamera absensi yang menganalisis kehadiran.</p>
+                        </div>
+                        <div class="materi-card highlight-card">
+                            <div class="card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                            <h3>4. Tantangan & Penerapan Sehari-hari</h3>
+                            <p>Tantangan meliputi komputasi tinggi (GPU), sifatnya yang black-box, dan butuh data besar. Penerapan: Face recognition smartphone, rekomendasi konten, asisten virtual, dan kendaraan otonom.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modul 3 -->
+                <div id="modul3" class="tab-pane">
+                    <div class="materi-grid">
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                            <h3>1. Pendahuluan</h3>
+                            <p>AI bertujuan mengembangkan sistem yang meniru kemampuan berpikir manusia. Machine Learning memungkinkan sistem belajar dari data tanpa diprogram eksplisit, kini telah terintegrasi di ponsel pintar, medsos, dan layanan digital.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <h3>2. Konsep Dasar ML</h3>
+                            <ul>
+                                <li><strong>Supervised Learning:</strong> Data berlabel.</li>
+                                <li><strong>Unsupervised Learning:</strong> Mencari pola data tanpa label.</li>
+                                <li><strong>Reinforcement Learning:</strong> Belajar via interaksi dengan lingkungan (reward/punishment).</li>
+                            </ul>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                            <h3>3. Penerapan dalam Kehidupan</h3>
+                            <div class="sub-points">
+                                <p><strong>Rekomendasi:</strong> Analisis riwayat pengguna.</p>
+                                <p><strong>Keamanan:</strong> Filter spam & deteksi ancaman.</p>
+                                <p><strong>Perangkat Pintar:</strong> Asisten virtual.</p>
+                                <p><strong>Transportasi:</strong> Prediksi rute & lalu lintas.</p>
+                                <p><strong>Pendidikan:</strong> Analisis belajar & absensi cerdas.</p>
+                            </div>
+                        </div>
+                        <div class="materi-card highlight-card">
+                            <div class="card-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                            <h3>4. Manfaat & Tantangan</h3>
+                            <p>Manfaat meliputi efisiensi, akurasi, personalisasi, dan keputusan berbasis data. Tantangan: privasi, bias algoritmik, kurang transparansi. Penting bagi mahasiswa membangun solusi teknis yang relevan dan etis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modul 4 -->
+                <div id="modul4" class="tab-pane">
+                    <div class="materi-grid">
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                            <h3>1. Pengertian Neural Network</h3>
+                            <p>Model komputasi yang terinspirasi dari otak manusia, unit kecil (neuron) terhubung memproses informasi. Menjadi fondasi utama Machine Learning dan Deep Learning.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <h3>2. Struktur & Cara Kerja</h3>
+                            <p>Terdiri dari Input Layer, Hidden Layer, dan Output Layer. Cara kerja: Perkalian input dengan bobot -> Penjumlahan bias -> Fungsi aktivasi -> Evaluasi loss -> Backpropagation.</p>
+                        </div>
+                        <div class="materi-card">
+                            <div class="card-icon"><i class="fa-solid fa-wave-square"></i></div>
+                            <h3>3. Fungsi Aktivasi & Jenis NN</h3>
+                            <p>Fungsi aktivasi (ReLU, Sigmoid, Tanh, Softmax) menentukan aktifnya neuron. Jenis: Feedforward NN, CNN (visual), RNN (sequence), LSTM & GRU, dan Transformer (basis LLM).</p>
+                        </div>
+                        <div class="materi-card highlight-card">
+                            <div class="card-icon"><i class="fa-solid fa-code-branch"></i></div>
+                            <h3>4. Karakteristik & Penerapan</h3>
+                            <p>Keunggulan: adaptif & cocok untuk data besar. Keterbatasan: black box, risiko overfitting. Penerapan: Pengenalan wajah, deteksi spam, chatbot, dan AI asisten.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="tentang-section">
+        <div class="section-header">
+            <h2>Tentang Penyusun</h2>
+            <p>Profil Pembuat Website</p>
+        </div>
+        
+        <div class="profile-card">
+            <div class="profile-image">
+                <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <div class="profile-info">
+                <h3>Apsah</h3>
+                <p class="role">Mahasiswa S2 Teknik Informatika</p>
+                <p class="university"><i class="fa-solid fa-building-columns"></i> Universitas Pamulang</p>
+                <div class="profile-desc">
+                    <p>Website ini didedikasikan sebagai media pembelajaran interaktif yang berfokus pada perkembangan teknologi masa depan, khususnya dalam bidang Artificial Intelligence dan penerapannya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Apsah - Universitas Pamulang. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

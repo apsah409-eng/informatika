@@ -1,0 +1,71 @@
+﻿Neural Network (Jaringan Saraf Tiruan)
+1. Pengertian Neural Network
+Neural Network atau Jaringan Saraf Tiruan adalah model komputasi yang terinspirasi dari cara kerja otak manusia, di mana unit-unit kecil (neuron) saling terhubung untuk memproses informasi.
+Neural Network merupakan fondasi utama Machine Learning dan Deep Learning, dan digunakan untuk mempelajari pola dari data secara otomatis.
+2. Struktur Dasar Neural Network
+Neural Network terdiri dari tiga bagian utama:
+Input Layer
+Menerima data masukan
+Contoh: nilai angka, piksel gambar, vektor teks
+Hidden Layer
+Tempat proses pembelajaran terjadi
+Bisa terdiri dari satu atau banyak layer
+Semakin banyak layer â†’ semakin kompleks pola yang dipelajari
+Output Layer
+Menghasilkan prediksi atau keputusan
+Contoh: kelas, nilai probabilitas, atau angka prediksi
+3. Cara Kerja Neural Network
+Data masuk ke input layer
+Setiap neuron melakukan:
+Perkalian input dengan bobot (weight)
+Penjumlahan bias
+Aktivasi menggunakan fungsi aktivasi
+Hasil diteruskan ke layer berikutnya
+Output dibandingkan dengan nilai sebenarnya
+Kesalahan dihitung menggunakan loss function
+Bobot diperbarui melalui backpropagation
+Proses diulang hingga model optimal
+4. Fungsi Aktivasi
+Fungsi aktivasi menentukan apakah neuron akan aktif atau tidak.
+Fungsi umum:
+ReLU â†’ paling sering digunakan
+Sigmoid â†’ probabilitas (0â€“1)
+Tanh â†’ output -1 sampai 1
+Softmax â†’ klasifikasi multi-kelas
+5. Jenis-Jenis Neural Network
+a. Feedforward Neural Network
+Aliran data satu arah
+Digunakan untuk klasifikasi dan regresi dasar
+b. Convolutional Neural Network (CNN)
+Khusus untuk data visual
+Digunakan dalam Computer Vision
+c. Recurrent Neural Network (RNN)
+Untuk data berurutan
+Memiliki memori konteks
+d. LSTM & GRU
+Pengembangan RNN
+Mengatasi masalah ingatan jangka panjang
+e. Transformer
+Neural Network modern berbasis attention
+Digunakan pada LLM dan multimodal AI
+6. Perbedaan Neural Network dan Deep Learning
+Neural Network: konsep umum jaringan neuron
+Deep Learning: Neural Network dengan banyak hidden layer
+Semua Deep Learning adalah Neural Network, tetapi tidak semua Neural Network adalah Deep Learning.
+7. Kelebihan Neural Network
+Mampu mempelajari pola kompleks
+Adaptif terhadap data baru
+Cocok untuk data besar
+Fleksibel untuk berbagai jenis data
+8. Keterbatasan Neural Network
+Membutuhkan data cukup banyak
+Sulit diinterpretasikan (black box)
+Komputasi tinggi
+Risiko overfitting
+9. Penerapan Neural Network dalam Kehidupan Sehari-hari
+Pengenalan wajah
+Rekomendasi konten
+Deteksi spam
+Speech recognition
+Sistem absensi cerdas
+Chatbot dan AI asisten
